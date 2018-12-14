@@ -1,24 +1,37 @@
-# README
+# _Volunteer Tracker_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _Sinatra and SQL Project for Ruby, 12.07.2018_
 
-Things you may want to cover:
+#### By **_Rohan Moore_**
 
-* Ruby version
+## Description
 
-* System dependencies
+_This site allows easy management of ongoing projects and volunteers.  You can track which volunteers are assigned to a project, the number of hours they have worked, and the number of hours spent on the project as a whole, as well as remove the project when it is done._
 
-* Configuration
+## Setup/Installation Instructions
 
-* Database creation
+1. _Clone this project from its [Github repository](https://github.com/rohanpmoore/specialty-foods)._
+2. _Ensure you have up to date ruby and rails installations.  This project runs on ruby version 2.5.3 and Rails version 5.2.2_
+3. _Move to the project folder in your terminal._
+4. _Run the command '$ bundle install' to install all necessary gems._
+5. _Run 'rake db:create db:schema:load db:seed' to initialize the database._
+6. _Run 'rails server' to create a local rails server._
+7. _Open a web browser of your choice and go to 'localhost:3000' to see the website._
 
-* Database initialization
+## Known Bugs
 
-* How to run the test suite
+* _No known bugs._
 
-* Services (job queues, cache servers, search engines, etc.)
+## Support and Contact Details
 
-* Deployment instructions
+_If you discover a bug or want to make a suggestion or comment, send me an email at rohanpmoore@gmail.com or file an issue on Github._
 
-* ...
+## Technologies Used
+
+_This project uses Ruby on Rails, HTML, CSS, Bootstrap, and PostgreSQL._
+
+### License
+
+Copyright (c) 2018 **_Rohan Moore_**
+
+This software is licensed under the MIT license.
