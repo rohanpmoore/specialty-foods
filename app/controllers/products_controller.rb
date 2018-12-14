@@ -1,4 +1,4 @@
-class ProductController < ApplicationController
+class ProductsController < ApplicationController
   def index
     @products = Product.all
   end
@@ -26,7 +26,7 @@ class ProductController < ApplicationController
 
   def update
     @product = Product.find(params[:id])
-    if @product.update(products_params)
+    if @product.update(product_params)
       redirect_to products_path
     else
       render :edit
