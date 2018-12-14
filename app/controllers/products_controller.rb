@@ -36,6 +36,9 @@ class ProductsController < ApplicationController
   def destroy
     @product = Product.find(params[:id])
     @product.destroy
+    @product.reviews.each do |review|
+      review.destroy
+    end
     redirect_to products_path
   end
 
