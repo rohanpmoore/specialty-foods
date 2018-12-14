@@ -1,12 +1,12 @@
-# _Volunteer Tracker_
+# _Specialty Foods_
 
-#### _Sinatra and SQL Project for Ruby, 12.07.2018_
+#### _Ruby on Rails Project, 12.14.2018_
 
 #### By **_Rohan Moore_**
 
 ## Description
 
-_This site allows easy management of ongoing projects and volunteers.  You can track which volunteers are assigned to a project, the number of hours they have worked, and the number of hours spent on the project as a whole, as well as remove the project when it is done._
+_This site allows for managing of products and reviews simply and efficiently in one place._
 
 ## Setup/Installation Instructions
 
